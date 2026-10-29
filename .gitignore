@@ -1,4 +1,11 @@
 # Logs
+node_modules/
+.env
+.env*.local
+dist/
+.next/
+.vercel/
+
 logs
 *.log
 npm-debug.log*
