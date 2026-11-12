@@ -1,5 +1,10 @@
-
-const apartments = [
+export interface PropertyListing {
+  name: string;
+  location: string;
+  price: string;
+  bedrooms: string;
+}
+const apartments: PropertyListing[] = [
   {
     name: "Modern Downtown Apartment",
     location: "Downtown Los Angeles",
